@@ -1,5 +1,9 @@
 <h2>Aprofundando os conhecimentos de componentes</h2>
 
+<img [src]="urlImage" width="400px">
+
 <p>{{ nome | uppercase }}</p>
 
 <p>Data de nascimento: {{ dataNascimento | date:"dd/MM/yyyy" }}</p>
+
+<button (click)="mostrarDataNascimento()" type="button">Mostrar data de nascimento</button>
