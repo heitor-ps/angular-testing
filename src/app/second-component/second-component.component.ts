@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./second-component.component.css']
 })
 export class SecondComponentComponent {
-
-
-
-
-
+  nome = "Pudim";
 }
