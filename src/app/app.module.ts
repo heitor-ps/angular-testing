@@ -10,6 +10,8 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { FormsModule } from '@angular/forms';
 import { RenderingListsComponent } from './rendering-lists/rendering-lists.component';
 import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 
 
 
@@ -23,6 +25,8 @@ import { ComponentePersonalizadoComponent } from './componente-personalizado/com
     TwoWayBindingComponent,
     RenderingListsComponent,
     ComponentePersonalizadoComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent,
   ],
   imports: [
     BrowserModule,
