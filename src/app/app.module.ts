@@ -12,6 +12,7 @@ import { RenderingListsComponent } from './rendering-lists/rendering-lists.compo
 import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { Servico1Component } from './servico1/servico1.component';
 
 
 
@@ -27,6 +28,7 @@ import { ComponenteFilhoComponent } from './componente-filho/componente-filho.co
     ComponentePersonalizadoComponent,
     ComponentePaiComponent,
     ComponenteFilhoComponent,
+    Servico1Component,
   ],
   imports: [
     BrowserModule,
