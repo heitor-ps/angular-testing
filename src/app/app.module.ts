@@ -13,6 +13,7 @@ import { ComponentePersonalizadoComponent } from './componente-personalizado/com
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { Servico1Component } from './servico1/servico1.component';
+import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.component';
 
 
 
@@ -29,6 +30,7 @@ import { Servico1Component } from './servico1/servico1.component';
     ComponentePaiComponent,
     ComponenteFilhoComponent,
     Servico1Component,
+    ExemploServico2Component,
   ],
   imports: [
     BrowserModule,
