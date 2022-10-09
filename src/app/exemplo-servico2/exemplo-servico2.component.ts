@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoggersService } from '../loggers.service';
 
 @Component({
   selector: 'app-exemplo-servico2',
@@ -6,11 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exemplo-servico2.component.css']
 })
 export class ExemploServico2Component {
-
   descricao = '';
 
+  constructor(public logger: LoggersService) {}
+
   adicionarProduto() {
-    console.log(`${this.descricao} foi adicionada ao produto`)
+    this.logger.logar(`${this.descricao} foi adicionada ao produto`)
   }
 
 }
