@@ -16,6 +16,7 @@ import { Servico1Component } from './servico1/servico1.component';
 import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { FatherLifecycleComponent } from './father-lifecycle/father-lifecycle.component';
+import { CardComponent } from './card/card.component';
 
 
 
@@ -35,6 +36,7 @@ import { FatherLifecycleComponent } from './father-lifecycle/father-lifecycle.co
     ExemploServico2Component,
     LifecycleComponent,
     FatherLifecycleComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
