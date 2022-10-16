@@ -12,6 +12,11 @@ import { RenderingListsComponent } from './rendering-lists/rendering-lists.compo
 import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { Servico1Component } from './servico1/servico1.component';
+import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { FatherLifecycleComponent } from './father-lifecycle/father-lifecycle.component';
+import { CardComponent } from './card/card.component';
 
 
 
@@ -27,6 +32,11 @@ import { ComponenteFilhoComponent } from './componente-filho/componente-filho.co
     ComponentePersonalizadoComponent,
     ComponentePaiComponent,
     ComponenteFilhoComponent,
+    Servico1Component,
+    ExemploServico2Component,
+    LifecycleComponent,
+    FatherLifecycleComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
