@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './father-lifecycle.component.html',
   styleUrls: ['./father-lifecycle.component.css']
 })
-export class FatherLifecycleComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class FatherLifecycleComponent {
+  texto = '';
 }
