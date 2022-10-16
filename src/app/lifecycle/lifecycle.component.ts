@@ -7,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LifecycleComponent implements OnInit {
 
+  horario = new Date();
+
+  timer: any = null!;
+
+
+
+
   ngOnInit(): void {
+    console.log('O evento OnInit disparou')
+    this.timer = setInterval(() => this.horario = new Date(), 1000);
   }
+
+
 
 }

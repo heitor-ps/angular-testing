@@ -15,6 +15,7 @@ import { ComponenteFilhoComponent } from './componente-filho/componente-filho.co
 import { Servico1Component } from './servico1/servico1.component';
 import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.component';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { FatherLifecycleComponent } from './father-lifecycle/father-lifecycle.component';
 
 
 
@@ -33,6 +34,7 @@ import { LifecycleComponent } from './lifecycle/lifecycle.component';
     Servico1Component,
     ExemploServico2Component,
     LifecycleComponent,
+    FatherLifecycleComponent,
   ],
   imports: [
     BrowserModule,
