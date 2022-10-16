@@ -14,6 +14,7 @@ import { ComponentePaiComponent } from './componente-pai/componente-pai.componen
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { Servico1Component } from './servico1/servico1.component';
 import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
 
 
 
@@ -31,6 +32,7 @@ import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.co
     ComponenteFilhoComponent,
     Servico1Component,
     ExemploServico2Component,
+    LifecycleComponent,
   ],
   imports: [
     BrowserModule,
